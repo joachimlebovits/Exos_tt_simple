@@ -1,0 +1,179 @@
+\RequirePackage{comment}
+%%begin_old_tag
+%\begin{comment}%_1
+\newif\iffrancais
+%commenter la ligne suivante pour l'anglais
+\francaistrue %si c'est commenté alors ce sera de l'anglais. Si c'est décommenté alors tout sera en fran\c cais
+%
+\iffrancais
+\documentclass[a4paper,11pt,svgnames,openany,french]{book}
+\includecomment{french}
+\excludecomment{english}
+\else
+\documentclass[a4paper,11pt,svgnames,openany,english]{book}
+%\renewcommand{\partname}{Partie}
+\includecomment{english}
+\excludecomment{french}
+\fi
+\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene}
+%\end{comment}%_1
+%%end_old_tag
+
+
+%%begin_new_tag
+\begin{comment}%_2
+\documentclass{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\usepackage{pythontex}
+\usepackage{lmodern}
+
+\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene_pr_pandoc}
+\end{comment}%_2
+%%end_new_tag
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+\newtheorem{Thm}{Theoreme}
+%\newtheorem*{rem}{Remark}
+
+
+\begin{Thm}
+%\label{oeizjdozij}
+This statement is true, I guess.
+\begin{equation}
+\label{proto}
+ 2x +3 = 2.
+\end{equation}
+\end{Thm}
+
+
+On peut donc dire que le théorème \ref{oeizjdozij} vérifie l'égalité \eqref{proto}.
+
+
+\begin{rem}
+This statement is true, I guess.
+\end{rem}
+
+
+
+%\EX
+
+%{\bfseries
+
+{\Large \iffrancais Exercice
+\else Exercise \fi
+}\num
+%}:
+
+\smallskip
+
+
+\begin{sympycode}
+A= Matrix([[1,2,-2],[2,1,-2],[2,2,-3]]) 
+P= Matrix([[1,0,1],[1,1,1],[1,1,2]])  
+\end{sympycode}
+
+\begin{comment}
+$\N$
+\end{comment}
+
+
+
+
+%\begin{comment}
+\iffrancais
+Soit $A$ et $P$ les deux matrices définies ci-dessous.
+\else
+Let $A$ and $P$ be the two following matrices.
+\fi
+%\end{comment}
+
+
+
+
+\begin{align}
+&A:=  \sympy{A}&
+& \& & 
+&P:=  \sympy{P}.&
+\end{align}
+
+%\iffrancais
+%Selon \eqref{eozrifj}, on a l'égalité
+%\else
+%According to \eqref{eozrifj}, Equality, we clearly have 
+%\fi
+
+
+
+
+
+
+
+\iffrancais
+On note $P^{-1}$, l'inverse de la matrice $P$, si elle existe.
+\else
+Denote  $P^{-1}$, the matrix inverse of $P$, if it exists.
+\fi
+
+\ben
+
+\item 
+\iffrancais
+Determiner l'inverse de la matrice $P$, si elle existe.
+\else
+Determine the inverse of matrix $P$, denoted $P$.
+\fi
+
+
+
+\item
+\iffrancais
+On pose 
+\else
+Define
+\fi
+$D=P^{-1}AP$. 
+%
+%
+\iffrancais
+Calculer $D, D^{2}, D^{3}$ et en déduire $D^{n}$, pour tout $n$ de $\N$.
+\else
+Compute $D, D^{2}, D^{3}$ and deduce $D^{n}$, for all $n$ in $\N$.
+\fi
+
+
+\item
+\iffrancais
+A partir des résultats obtenus aux questions précédentes, calculer $A^{n}$,pour tout  $n$ in $\N$.
+\else
+From the results obtained in the previous questions, compute  $A^{n}$, for all $n$ in $\N$.
+\fi
+
+
+\begin{sympycode}
+qs= 'zepodededzdezzpodkzepodzek'
+lk = 'Matrixzedoezidjzeoidjzeodizjeoij'
+\end{sympycode}
+
+
+\een
+
+
+
+
+
+\end{document}
+

@@ -1,0 +1,67 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.14)  27 JUL 2023 15:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Ex_Cr_Ref_2.tex
+(./Ex_Cr_Ref_2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+
+./Ex_Cr_Ref_2.tex:4: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \newif\{\%
+              if langue == 'fr' \%\}
+? 
+Missing character: There is no % in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no % in font nullfont!
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+
+./Ex_Cr_Ref_2.tex:6: Undefined control sequence.
+l.6 \francaistrue
+                  %si c'est commenté alors ce sera de l'anglais. Si c'est d...
+
+? 
+./Ex_Cr_Ref_2.tex:6: Emergency stop.
+l.6 \francaistrue
+                  %si c'est commenté alors ce sera de l'anglais. Si c'est d...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 91 strings out of 478353
+ 1865 string characters out of 5848085
+ 296586 words of memory out of 5000000
+ 18311 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,0n,34p,132b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
+./Ex_Cr_Ref_2.tex:6:  ==> Fatal error occurred, no output PDF file produced!

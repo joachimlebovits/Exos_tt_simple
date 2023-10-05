@@ -1,0 +1,173 @@
+\RequirePackage{comment}
+%%begin_old_tag
+\begin{comment}%_1
+\newif\{\%if langue == 'fr' \%\}
+%commenter la ligne suivante pour l'anglais
+\francaistrue %si c'est commenté alors ce sera de l'anglais. Si c'est décommenté alors tout sera en fran\c cais
+%
+\{\%if langue == 'fr' \%\}
+\documentclass[a4paper,11pt,svgnames,openany,french]{book}
+\includecomment{french}
+\excludecomment{english}
+\{\%elif langue == 'en' \%\}
+\documentclass[a4paper,11pt,svgnames,openany,english]{book}
+%\renewcommand{\partname}{Partie}
+\includecomment{english}
+\excludecomment{french}
+\{\%endif\%\}
+\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene}
+\end{comment}%_1
+%%end_old_tag
+
+
+%%begin_new_tag
+%\begin{comment}%_2
+\documentclass{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\usepackage{pythontex}
+\usepackage{lmodern}
+
+\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene_pr_pandoc}
+%\end{comment}%_2
+%%end_new_tag
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+\newtheorem{Thm}{Theoreme}
+%\newtheorem*{rem}{Remark}
+
+
+\begin{Thm}
+%\label{oeizjdozij}
+This statement is true, I guess.
+\begin{equation}
+\label{proto}
+ 2x +3 = 2.
+\end{equation}
+\end{Thm}
+
+
+On peut donc dire que le théorème \ref{oeizjdozij} vérifie l'égalité \eqref{proto}.
+
+
+\begin{rem}
+This statement is true, I guess.
+\end{rem}
+
+
+
+%\EX
+
+%{\bfseries
+
+{\Large \{\%if langue == 'fr' \%\} Exercice
+\{\%elif langue == 'en' \%\} Exercise \{\%endif\%\}
+}\num
+%}:
+
+\smallskip
+
+
+
+
+\begin{comment}
+$\N$
+\end{comment}
+
+
+
+
+%\begin{comment}
+\{\%if langue == 'fr' \%\}
+Soit $A$ et $P$ les deux matrices définies ci-dessous.
+\{\%elif langue == 'en' \%\}
+Let $A$ and $P$ be the two following matrices.
+\{\%endif\%\}
+%\end{comment}
+
+
+
+
+\begin{align}
+&A:=  \sympy{A}&
+& \& & 
+&P:=  \sympy{P}.&
+\end{align}
+
+%\{\%if langue == 'fr' \%\}
+%Selon \eqref{eozrifj}, on a l'égalité
+%\{\%elif langue == 'en' \%\}
+%According to \eqref{eozrifj}, Equality, we clearly have 
+%\{\%endif\%\}
+
+
+
+
+
+
+
+\{\%if langue == 'fr' \%\}
+On note $P^{-1}$, l'inverse de la matrice $P$, si elle existe.
+\{\%elif langue == 'en' \%\}
+Denote  $P^{-1}$, the matrix inverse of $P$, if it exists.
+\{\%endif\%\}
+
+\ben
+
+\item 
+\{\%if langue == 'fr' \%\}
+Determiner l'inverse de la matrice $P$, si elle existe.
+\{\%elif langue == 'en' \%\}
+Determine the inverse of matrix $P$, denoted $P$.
+\{\%endif\%\}
+
+
+
+\item
+\{\%if langue == 'fr' \%\}
+On pose 
+\{\%elif langue == 'en' \%\}
+Define
+\{\%endif\%\}
+$D=P^{-1}AP$. 
+%
+%
+\{\%if langue == 'fr' \%\}
+Calculer $D, D^{2}, D^{3}$ et en déduire $D^{n}$, pour tout $n$ de $\N$.
+\{\%elif langue == 'en' \%\}
+Compute $D, D^{2}, D^{3}$ and deduce $D^{n}$, for all $n$ in $\N$.
+\{\%endif\%\}
+
+
+\item
+\{\%if langue == 'fr' \%\}
+A partir des résultats obtenus aux questions précédentes, calculer $A^{n}$,pour tout  $n$ in $\N$.
+\{\%elif langue == 'en' \%\}
+From the results obtained in the previous questions, compute  $A^{n}$, for all $n$ in $\N$.
+\{\%endif\%\}
+
+
+
+
+
+\een
+
+
+
+
+
+\end{document}
+

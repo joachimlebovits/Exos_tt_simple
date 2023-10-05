@@ -1,0 +1,34 @@
+
+
+ 
+
+  Exercise
+ \#
+
+ Let $A$ and $P$ be the two
+following matrices. 
+
+$$\begin{aligned}
+\label{eozrifj}
+%\tag{pouetpouet}
+&A:=  \begin{pmatrix}1 & 2 & -2\\2 & 1 & -2\\2 & 2 & -3\end{pmatrix}&
+& \& & 
+&P:=  \begin{pmatrix}1 & 0 & 1\\1 & 1 & 1\\1 & 1 & 2\end{pmatrix}.&
+\end{aligned}$$
+
+On a donc [\[eozrifj\]](#eozrifj){reference-type="eqref"
+reference="eozrifj"}
+
+
+ Denote $P^{-1}$, the matrix
+inverse of $P$, if it exists. 
+
+1.   Determine the inverse of
+    matrix $P$, denoted $P$. 
+
+2.   Define
+     $D=P^{-1}AP$.  Compute $D, D^{2}, D^{3}$
+    and deduce $D^{n}$, for all $n$ in ${\mathbf{N}}$. 
+
+3.   From the results obtained in the previous
+    questions, compute $A^{n}$, for all $n$ in ${\mathbf{N}}$. 

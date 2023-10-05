@@ -1,0 +1,19 @@
+=>PYTHONTEX#sympy#default#default#0#code#####47#
+A= Matrix([[1,2,-2],[2,1,-2],[2,2,-3]])
+P= Matrix([[1,0,1],[1,1,1],[1,1,2]])
+=>PYTHONTEX#sympy#default#default#1#i#####60#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####60#
+P
+=>PYTHONTEX#sympy#default#default#1#i#####60#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####60#
+P
+=>PYTHONTEX#sympy#default#default#1#i#####60#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####60#
+P
+=>PYTHONTEX#sympy#default#default#1#i#####60#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####60#
+P

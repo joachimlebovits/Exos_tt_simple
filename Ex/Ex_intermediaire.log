@@ -1,0 +1,42 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.14)  27 JUL 2023 11:55
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Ex_intermediaire.tex
+(./Ex_intermediaire.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') Excluding 'comment' comment.
+
+./Ex_intermediaire.tex:71: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \{
+       \%if langue == 'fr' \%\}
+? 
+./Ex_intermediaire.tex:71: Emergency stop.
+ ...                                              
+                                                  
+l.71 \{
+       \%if langue == 'fr' \%\}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 74 strings out of 478353
+ 1705 string characters out of 5848085
+ 296591 words of memory out of 5000000
+ 18296 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,0n,34p,179b,45s stack positions out of 5000i,500n,10000p,200000b,80000s
+./Ex_intermediaire.tex:71:  ==> Fatal error occurred, no output PDF file produc
+ed!

@@ -1,0 +1,59 @@
+=>PYTHONTEX#sympy#default#default#0#code#####50#
+A= Matrix([[1,2,-2],[2,1,-2],[2,2,-3]])
+P= Matrix([[1,0,1],[1,1,1],[1,1,2]])
+alpha = Rational(1,10)
+beta = Rational(2,10)
+gamma = Rational(3,10)
+delta = Rational(25,100)
+epsilon = Rational(15,100)
+=>PYTHONTEX#sympy#default#default#1#i#####73#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####73#
+P
+=>PYTHONTEX#sympy#default#default#1#i#####73#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####73#
+P
+=>PYTHONTEX#sympy#default#default#1#i#####73#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####73#
+P
+=>PYTHONTEX#sympy#default#default#1#i#####73#
+A
+=>PYTHONTEX#sympy#default#default#2#i#####73#
+P
+=>PYTHONTEX#sympy#default#default#3#i#####101#
+alpha
+=>PYTHONTEX#sympy#default#default#4#i#####101#
+beta
+=>PYTHONTEX#sympy#default#default#5#i#####101#
+gamma
+=>PYTHONTEX#sympy#default#default#6#i#####101#
+delta
+=>PYTHONTEX#sympy#default#default#7#i#####101#
+epsilon
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-Ex_essai_initial
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

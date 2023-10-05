@@ -1,0 +1,76 @@
+\RequirePackage{comment}
+%%begin_old_tag
+\begin{comment}%_1
+\newif\{\%if langue == 'fr' \%\}
+%commenter la ligne suivante pour l'anglais
+\francaistrue %si c'est commenté alors ce sera de l'anglais. Si c'est décommenté alors tout sera en fran\c cais
+%
+\{\%if langue == 'fr' \%\}
+\documentclass[a4paper,11pt,svgnames,openany,french]{book}
+\includecomment{french}
+\excludecomment{english}
+\{\%elif langue == 'en' \%\}
+\documentclass[a4paper,11pt,svgnames,openany,english]{book}
+%\renewcommand{\partname}{Partie}
+\includecomment{english}
+\excludecomment{french}
+\{\%endif\%\}
+\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene}
+\end{comment}%_1
+%%end_old_tag
+
+
+%%begin_new_tag
+%\begin{comment}%_2
+\documentclass{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\usepackage{pythontex}
+\usepackage{lmodern}
+
+\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene_pr_pandoc}
+%\end{comment}%_2
+%%end_new_tag
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+
+
+
+\begin{align}
+\label{ezrpfire1}
+&A:=  \sympy{A}&
+& \& & 
+&P:=  \sympy{P}.&
+\end{align}
+
+$$2=2$$
+
+
+\begin{equation}
+\label{ezrpfire2}
+x \geq 3
+\end{equation}
+
+
+
+Egalité \eqref{ezrpfire1} tandis que l'égalité \eqref{ezrpfire2}
+
+
+
+
+\end{document}
+
