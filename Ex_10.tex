@@ -1,0 +1,109 @@
+%\RequirePackage{comment}
+%%%begin_old_tag
+%\begin{comment}%_1
+%\newif\iffrancais
+%%commenter la ligne suivante pour l'anglais
+%\francaistrue %si c'est commenté alors ce sera de l'anglais. Si c'est décommenté alors tout sera en fran\c cais
+%%
+%\iffrancais
+%\documentclass[a4paper,11pt,svgnames,openany,french]{book}
+%\includecomment{french}
+%\excludecomment{english}
+%\else
+%\documentclass[a4paper,11pt,svgnames,openany,english]{book}
+%%\renewcommand{\partname}{Partie}
+%\includecomment{english}
+%\excludecomment{french}
+%\fi
+%\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene}
+%\end{comment}%_1
+%%%end_old_tag
+
+
+%%begin_new_tag
+%\begin{comment}%_2
+\documentclass{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\usepackage{lmodern}
+
+%\input{/Users/jlebovits/Dropbox/5-Latex_et_tous_logiciels_de_math_et_terminal/1-Latex/2-Fichiers_Tex_a_inclure/Inputgene/Inputgene_pr_pandoc}
+%\end{comment}%_2
+%%end_new_tag
+
+\newtheorem{theo}{Theorem}
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+
+
+
+
+
+
+\begin{equation}
+ \label{A1}
+ 2x+1=0
+\end{equation}
+
+
+En utilisant la ou les solutions de l'équation \eqref{A1}, déterminer l'ensemble des solutions de l'équation suivante
+
+\begin{equation}
+ \label{A2}
+ 4x^{2}-1=0
+\end{equation}
+
+\eqref{A1}
+est moins bien que 
+\eqref{A2}
+est mieux que le suivant qui n'est que  \eqref{A3}
+
+
+
+\begin{align}
+ \label{A3}
+ 4x^{2}-1=0
+\end{align}
+
+\eqref{A3}
+
+
+
+
+\begin{theo}
+ \label{theo1}
+ dzeze
+\end{theo}
+
+
+
+Le theorème \ref{theo1}
+
+
+
+\begin{align}
+% \label{A4}
+ 1x^{2}-1=0  \label{L1A4}\\
+  2x^{2}-1=0\label{LA4}\\
+   3x^{2}-1=0\notag\\
+    4x^{2}-1=0\label{LeA4}
+\end{align}
+
+Selon \eqref{L1A4}, on sait que: $ 1x^{2}-1=0 $. Selon \eqref{LA4}, on sait que: $   2x^{2}-1=0 $ et d'ailleurs . Selon \eqref{LeA4}, on sait que: $     4x^{2}-1=0 $. Et c'est tout.
+
+
+\end{document}
+
